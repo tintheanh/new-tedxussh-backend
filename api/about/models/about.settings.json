@@ -42,6 +42,11 @@
       "repeatable": false,
       "component": "tile.video-tile",
       "required": true
+    },
+    "goals": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tile.goal"
     }
   }
 }
