@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_tile_video_tiles",
+  "info": {
+    "name": "video_tile",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "video_url": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

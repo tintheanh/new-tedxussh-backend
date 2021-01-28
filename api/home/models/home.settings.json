@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image_cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "metadata.seo"
+    },
+    "tiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tile.image-tile",
+      "required": true
+    }
+  }
+}

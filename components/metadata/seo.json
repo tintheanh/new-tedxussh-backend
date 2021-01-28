@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_metadata_seos",
+  "info": {
+    "name": "seo",
+    "icon": "chalkboard-teacher",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "canonical": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "site_name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
