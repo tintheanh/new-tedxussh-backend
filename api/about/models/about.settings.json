@@ -46,7 +46,8 @@
     "goals": {
       "type": "component",
       "repeatable": true,
-      "component": "tile.goal"
+      "component": "tile.goal",
+      "required": true
     }
   }
 }
