@@ -19,14 +19,14 @@
       "type": "text",
       "required": true
     },
-    "image_cover": {
+    "cover_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "seo": {
       "type": "component",
